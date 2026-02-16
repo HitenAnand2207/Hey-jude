@@ -122,6 +122,18 @@ main {
   box-shadow: 0 10px 20px rgba(146, 116, 97, 0.12);
 }
 
+.note__actions {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn--ghost {
+  background: #fff2e2;
+  border: 1px solid #e7cdbb;
+  text-decoration: none;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
