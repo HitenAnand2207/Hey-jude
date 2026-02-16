@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hey Nidzzsiuu - A Cheerful Note</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">A gentle reminder</p>
+        <h1>Hey Nidzzsiuu</h1>
+        <p class="subtitle">You are not alone, and brighter days are close.</p>
+        <div class="hero__actions">
+          <button id="playToggle" class="btn">Pause music</button>
+          <span class="hint">If audio does not start, tap play.</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="note">
+        <p>
+          This little page is here to wrap you in warmth. Take a deep breath, put on your
+          comfiest playlist, and let today be soft on your heart.
+        </p>
+      </section>
+
+      <section class="gallery">
+        <article class="card">
+          <div class="photo-slot" data-slot="1">Photo 1</div>
+          <h3>Take a sad song</h3>
+          <p>and make it better. Remember to let her into your heart.</p>
+        </article>
+        <article class="card">
+          <div class="photo-slot" data-slot="2">Photo 2</div>
+          <h3>Then you can start</h3>
+          <p>to make it better. Let it out and let it in.</p>
+        </article>
+        <article class="card">
+          <div class="photo-slot" data-slot="3">Photo 3</div>
+          <h3>Don’t carry the world</h3>
+          <p>upon your shoulders. You have found her, now go and get her.</p>
+        </article>
+        <article class="card">
+          <div class="photo-slot" data-slot="4">Photo 4</div>
+          <h3>Na na na, hey Nidzzsiuu</h3>
+          <p>Hey Nidzzsiuu, make it better.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Made with care and a little sunshine.</p>
+    </footer>
+
+    <audio id="bgMusic" autoplay loop>
+      <source src="assets/hey-jude.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>
