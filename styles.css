@@ -175,8 +175,9 @@ main {
 
 .photo-slot--contain {
   object-fit: contain;
-  background: #fff5f8;
-  padding: 8px;
+  background: linear-gradient(135deg, #fef1f5, #f8e5ec);
+  padding: 10px;
+  border: 2px dashed rgba(243, 185, 201, 0.5);
 }
 
 .card h3 {
